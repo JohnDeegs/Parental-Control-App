@@ -1,0 +1,115 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	background-color: #ccf;
+}
+
+h1{
+	font-family: 'Lobster',Arial, sans-serif;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+img {
+	margin-top: 50px;
+	margin-left: 47%;
+}
+
+h2{
+text-align: center;
+font-size: 24px;
+}
+
+hr{
+margin-bottom: 30px;
+}
+
+div.container{
+position:relative; /*works if fixed too*/
+left:0; right:0;
+top:0; bottom:0;
+margin:auto;
+}
+
+div.main{
+width: 320px;
+margin-top: 60px;
+margin-left: 33%;
+padding: 10px 55px 40px;
+background-color: rgba(187, 255, 184, 0.65);
+border: 15px solid white;
+box-shadow: 0 0 10px;
+border-radius: 2px;
+font-size: 13px;
+}
+
+input[type=text],[type=password] {
+width: 97.7%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 20px;
+margin-top: 8px;
+box-shadow: 0 0 5px #00F5FF;
+border: 2px solid #00F5FF;
+color: #4f4f4f;
+font-size: 16px;
+}
+
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+
+#login {
+width: 100%;
+background: linear-gradient(#22abe9 5%, #36caf0 100%);
+border: 1px solid #0F799E;
+font-size: 20px;
+margin-top: 15px;
+padding: 8px;
+font-weight: bold;
+cursor: pointer;
+color: white;
+text-shadow: 0px 1px 0px #13506D;
+}
+
+
+#login:hover{
+background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+div.bottom {
+	background-color: #fff;
+	margin:0;
+    padding:0;
+    border:0;
+}
+
+#d1, #d2, #d3 {
+    display:inline-block;
+    width: 33.1%;
+    height:500px;
+}
+
+#d2 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#d1 { 
+	background-color:red;
+ }
+
+#d2 { 
+	background-color:green; 
+}
+
+#d3 { 
+	background-color:blue;
+ }

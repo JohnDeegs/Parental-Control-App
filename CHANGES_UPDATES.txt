@@ -1,0 +1,18 @@
+CHANGES LIST:
+
+12/10/2015:
+
+- So far have added a sliding navbar using JS/Jquery. Undecided as to if to keep it. Experimenting with other designs for now.
+
+- V2 has no longer a sliding navbar, it is fixed in position already.
+
+- V2 contains a Log In made using HTML/CSS/JS. If kept, ready to add PHP for future DB interaction.
+
+- Font is now Open Sans, an open source Google font. Open to suggestions for change but I personally really enjoy the look of the font.
+
+- Color scheme of Log in will probably change, I'm not sure on the green.
+
+15/10/2015:
+
+- Added "Parental Control App" header to the index page. I imported the "Lobster" font from google fonts. I like the look of it, I'll see what it looks like once I've looked at potential logos over the weekend.
+
